@@ -10,4 +10,9 @@ public class HomeController {
     public String hello() {
         return "Hello From Spring Boot on EC2 ";
     }
+
+    @GetMapping("/hello")
+    public String helloWorld(){
+        return "Hello  World";
+    }
 }
